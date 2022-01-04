@@ -36,3 +36,28 @@ h1 {
   background-repeat: no-repeat;
   background-position: right;
 }
+.orange-color {
+  color: orange;
+}
+.expirence-area {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+}
+.experience-item {
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  box-shadow: 10px 10px 40px gray;
+  padding-left: 20px;
+}
+#web-dev {
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+}
+#web-dev-exp {
+  border-left: 7px solid;
+
+  border-image: linear-gradient(orange, tomato);
+  border-image-slice: 1;
+}
